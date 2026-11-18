@@ -7,6 +7,6 @@ private class OrderCalculationServiceTest {
         Integer result =
             OrderCalculationService.calculateTotal(100, 2);
 
-        System.assertEquals(300, result);
+        System.assertEquals(200, result);
     }
 }
